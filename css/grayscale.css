@@ -58,6 +58,8 @@ p {
     font-size: 20px;
     line-height: 1.6;
   }
+
+
 }
 a {
   color: white;
@@ -406,6 +408,8 @@ a:focus {
     height: 400px;
     margin-top: 5px;
   }
+
+
 }
 .btn {
   text-transform: uppercase;
@@ -451,10 +455,10 @@ ul.banner-social-buttons {
   }
   #grants {
     margin-top: 0px;
-    height:805px;
+    height:836.25px;
   }
   .tickets {
-    height:805px;
+    height:836.25px;
   }
 }
 
@@ -465,6 +469,11 @@ ul.banner-social-buttons {
   .tickets {
     height:auto;
   }
+
+  .social-networks {
+    padding-top: 30px;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -492,6 +501,15 @@ ul.banner-social-buttons {
     font-size: 12px;
   }
 
+  .btn-secondary:hover,
+.btn-secondary:focus {
+  outline: none;
+  color: black;
+  background-color: black;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
   .main-logo {
     width:100%;
   }
@@ -502,6 +520,10 @@ ul.banner-social-buttons {
   .btn-small {
     font-size: 20px;
     width: 30%;
+  }
+
+  .social-networks {
+    padding-top: 30px;
   }
 }
 
@@ -757,3 +779,78 @@ transition-delay:.2s;
 #faq-section > div {
   padding-left: 100px;
 }
+
+.credit {
+  font-size: 10pt;
+}
+
+.regionals {
+  color:#DD4124;
+}
+
+#footerFbLogo {
+  padding-top: 34px;
+  padding-bottom: 25px;
+}
+
+
+.social-networks img {
+  width: 7%;
+  height:auto;
+}
+
+.social-networks h4 {
+  margin-bottom: 30px;
+  border: 1px;
+
+}
+
+#program-section {
+    /*background: url(../img/participateUpSideDown.png) no-repeat center center scroll;
+    background-size: cover; */
+    background-color: rgb(16, 26, 29);
+    width: 100%;
+}
+
+
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.grid-sizer,
+.grid-item {
+  width: 20%;
+}
+
+.grid-item {
+  height: 120px;
+  float: left;
+  background: rgba(14, 14, 13, 0.71);
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+  padding-top: 10px;
+  margin: 10px;
+  padding: 15px;
+  height: auto;
+
+}
+
+.grid-item p {
+   text-align: left;
+}
+
+.grid-item--width1 { width:  10%; }
+.grid-item--width2 { width:  20%; }
+.grid-item--width3 { width:  30%; }
+.grid-item--width4 { width:  40%; }
+.grid-item--width5 { width:  50%; }
+.grid-item--width6 { width:  60%; }
+.grid-item--width8 { width:  80%; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
